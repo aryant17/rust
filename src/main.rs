@@ -1,3 +1,6 @@
+mod public {
+    pub mod vars;
+}
 fn main() {
-    println!("Hello, world!");
+    public::vars::run();
 }
